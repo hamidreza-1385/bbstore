@@ -12,7 +12,7 @@ import { CartProvider } from './contexts/CartContext';
 function App() {
   return (
     <CartProvider>
-      <Router basename='/bbstore'>
+      <Router basename='/store'>
         <Navbar />
         <Container className="mt-4">
           <Routes>
